@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Calculadora</title>
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+        <script src="script.js"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    </head>
+    <body>
+            <div class="header">
+                <h1>Calculadora</h1>
+                <nav>
+                    <ul class="menu">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="https://github.com/lucasgsz" target="_blank">Github</a></li>
+                        <li><a href="/">Sobre</a></li>
+                        
+                    </ul>
+                </nav>
+            </div> 
+            <section class="calculadora">
+                <div class="label">
+                    <h1>Calculadora Do Bug</h1>
+                    <div class="labels">
+                        <label id="label1"></label>
+                        <label id="label2"></label>
+                        <label id="label3"></label>
+                    </div>
+                </div>
+                <div class="numeros">
+                    <button style="background-color: tomato; border: tomato;" onclick="num0()">0</button>
+                    <button onclick="num1()">1</button>
+                    <button onclick="num2()">2</button>
+                    <button onclick="num3()">3</button>
+                    <button onclick="num4()">4</button>
+                    <button onclick="num5()">5</button>
+                    <button onclick="num6()">6</button>
+                    <button onclick="num7()">7</button>
+                    <button onclick="num8()">8</button>
+                    <button onclick="num9()">9</button>
+                    <button onclick="virgula()">.</button>
+                    <button onclick="resultado()" class="igualdade">=</button>
+                </div>
+                <div class="contas">
+                    <button onclick="resetar()">cc</button>
+                    <button onclick="somar()">+</button>
+                    <button onclick="subtrair()">-</button>
+                    <button onclick="dividir()">/</button>
+                    <button onclick="multiplicar()">X</button>
+                </div>
+            </section>
+            
+    </body>
+</html>
